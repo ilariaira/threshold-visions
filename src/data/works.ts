@@ -15,13 +15,13 @@ export interface Work {
 
 export const works: Work[] = [
   {
-    slug: 'sdraiati',
-    title: 'Sdraiati',
-    year: '2023',
-    medium: 'Ceramics',
+    slug: 'le-braccia-di-milo',
+    title: 'Le braccia di Milo',
+    year: '2026',
+    medium: 'White ceramic',
     themes: ['body', 'ritual', 'fragility', 'stillness'],
     description: 'A year-long ritual of making. Three hundred and sixty-five ceramic figures lying down like an intimate diary of suspended time, vulnerability, exhaustion, tenderness, and persistence.',
-    longDescription: 'Sdraiati is a durational work spanning an entire year—365 days, 365 ceramic figures, each one shaped by hand in the intimacy of a daily ritual. The figures lie down, embodying states of rest, vulnerability, exhaustion, tenderness, and quiet persistence. Together they form a tactile diary of time passing, a meditation on the body as vessel of accumulated experience. The repetition becomes both discipline and surrender, each small figure a fragment of presence reclaimed from the flux of days.',
+    longDescription: 'Le braccia di Milo is a durational work spanning an entire year—365 days, 365 ceramic figures, each one shaped by hand in the intimacy of a daily ritual. The figures lie down, embodying states of rest, vulnerability, exhaustion, tenderness, and quiet persistence. Together they form a tactile diary of time passing, a meditation on the body as vessel of accumulated experience. The repetition becomes both discipline and surrender, each small figure a fragment of presence reclaimed from the flux of days.',
     image: sdraiatiAsset.url,
     orientation: 'vertical',
     featured: true,
@@ -113,7 +113,7 @@ export const works: Work[] = [
 ];
 
 export const exhibitions = [
-  { year: '2023', title: 'Sdraiati — Solo Exhibition', venue: 'Galleria d\'Arte Contemporanea', location: 'Milan, Italy' },
+  { year: '2026', title: 'Le braccia di Milo — Solo Exhibition', venue: 'Galleria d\'Arte Contemporanea', location: 'Milan, Italy' },
   { year: '2023', title: 'We Are Still Flying', venue: 'Kunsthalle', location: 'Berlin, Germany' },
   { year: '2022', title: 'Contenere — Solo Exhibition', venue: 'Centre d\'Art', location: 'Paris, France' },
   { year: '2022', title: 'How Much Can a Feeling Weigh?', venue: 'MACRO Museum', location: 'Rome, Italy' },
