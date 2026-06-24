@@ -1,3 +1,5 @@
+import sdraiatiAsset from '@/assets/work-sdraiati.jpeg.asset.json';
+
 export interface Work {
   slug: string;
   title: string;
