@@ -1,3 +1,5 @@
+import sdraiatiAsset from '@/assets/work-sdraiati.jpeg.asset.json';
+
 export interface Work {
   slug: string;
   title: string;
@@ -20,7 +22,7 @@ export const works: Work[] = [
     themes: ['body', 'ritual', 'fragility', 'stillness'],
     description: 'A year-long ritual of making. Three hundred and sixty-five ceramic figures lying down like an intimate diary of suspended time, vulnerability, exhaustion, tenderness, and persistence.',
     longDescription: 'Sdraiati is a durational work spanning an entire year—365 days, 365 ceramic figures, each one shaped by hand in the intimacy of a daily ritual. The figures lie down, embodying states of rest, vulnerability, exhaustion, tenderness, and quiet persistence. Together they form a tactile diary of time passing, a meditation on the body as vessel of accumulated experience. The repetition becomes both discipline and surrender, each small figure a fragment of presence reclaimed from the flux of days.',
-    image: '/src/assets/work-sdraiati.jpg',
+    image: sdraiatiAsset.url,
     orientation: 'vertical',
     featured: true,
   },
