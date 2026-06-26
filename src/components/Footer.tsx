@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <p className="text-xs tracking-[0.15em] uppercase text-muted-foreground font-light mb-4">Navigate</p>
             <div className="flex flex-col gap-3">
-              {['Works', 'About', 'Exhibitions', 'Archive', 'Contact'].map((item) => (
+              {['Works', 'About', 'Exhibitions', 'Contact'].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase()}`}
@@ -30,10 +30,10 @@ const Footer = () => {
             <p className="text-xs tracking-[0.15em] uppercase text-muted-foreground font-light mb-4">Connect</p>
             <div className="flex flex-col gap-3">
               <a href="mailto:studio@ilariaigliani.com" className="text-xs tracking-[0.15em] text-muted-foreground hover:text-foreground transition-opacity duration-500 font-light">
-                studio@ilariaigliani.com
+                ilariaigliani@gmail.com
               </a>
               <a href="https://instagram.com/ilariaigliani" target="_blank" rel="noopener noreferrer" className="text-xs tracking-[0.15em] text-muted-foreground hover:text-foreground transition-opacity duration-500 font-light">
-                Instagram
+                @ilariaigliani
               </a>
             </div>
           </div>

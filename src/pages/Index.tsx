@@ -27,7 +27,7 @@ const Index = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pb-16 md:pb-24 w-full">
           <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-light text-foreground leading-tight animate-slow-fade-up max-w-3xl">
             Fragments of presence.<br />
-            <span className="text-muted-foreground">Rituals of memory.</span>
+            <span className="text-muted-foreground/90">Rituals of memory.</span>
           </h1>
         </div>
       </section>
@@ -42,37 +42,6 @@ const Index = () => {
         </ScrollReveal>
       </section>
 
-      {/* Three entries */}
-      <section className="max-w-7xl mx-auto px-6 md:px-12 pb-24">
-        <ScrollReveal>
-          <div className="flex flex-col md:flex-row items-start gap-12 md:gap-24">
-            <Link to="/works" className="group">
-              <span className="font-serif text-2xl md:text-3xl font-light text-foreground group-hover:opacity-60 transition-opacity duration-700">
-                Works
-              </span>
-              <span className="block text-xs tracking-[0.2em] text-muted-foreground mt-2 font-light">
-                An atlas of gestures
-              </span>
-            </Link>
-            <Link to="/about" className="group">
-              <span className="font-serif text-2xl md:text-3xl font-light text-foreground group-hover:opacity-60 transition-opacity duration-700">
-                About
-              </span>
-              <span className="block text-xs tracking-[0.2em] text-muted-foreground mt-2 font-light">
-                Practice & biography
-              </span>
-            </Link>
-            <Link to="/archive" className="group">
-              <span className="font-serif text-2xl md:text-3xl font-light text-foreground group-hover:opacity-60 transition-opacity duration-700">
-                Enter the Archive
-              </span>
-              <span className="block text-xs tracking-[0.2em] text-muted-foreground mt-2 font-light">
-                An index of traces
-              </span>
-            </Link>
-          </div>
-        </ScrollReveal>
-      </section>
 
       {/* Selected Works */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24">
@@ -91,7 +60,7 @@ const Index = () => {
                     src={work.image}
                     alt={work.title}
                     loading="lazy"
-                    className="w-full h-full object-cover transition-all duration-[2000ms] group-hover:scale-[1.02] group-hover:opacity-90"
+                    className="w-full h-full object-cover object-bottom transition-all duration-[2000ms] group-hover:scale-[1.02] group-hover:opacity-90"
                   />
                 </div>
                 <div className="mt-6 flex items-baseline justify-between">

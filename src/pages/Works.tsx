@@ -1,10 +1,18 @@
-import { Link } from 'react-router-dom';
+import { Link , useLocation} from 'react-router-dom';
 import Navigation from '@/components/Navigation';
+import {useEffect} from 'react';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
 import { works } from '@/data/works';
 
+
+
 const Works = () => {
+const location = useLocation();
+
+useEffect(() => {
+    window.scrollTo(0, 0);
+}, [location.pathname]);
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
