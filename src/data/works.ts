@@ -257,12 +257,7 @@ export const exhibitions = [
         title: 'EssereApparire (solo exhibition)',
         venue: 'ABA',
         location: 'Frosinone, Italy',
-      },
-       {
-        title: 'Contatto',
-        venue: 'Spazio espositivo',
-        location: 'Rome, Italy',
-      },
+      }
     ],
   },
 
