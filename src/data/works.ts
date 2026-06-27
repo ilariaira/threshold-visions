@@ -1,5 +1,22 @@
 import sdraiatiAsset from '@/assets/work-sdraiati.jpeg.asset.json';
 
+import leBracciaDiMilo from '@/assets/leBracciaDiMilo.jpg';
+import sdraiati from '@/assets/sdraiati.jpg';
+import sdraiati1 from '@/assets/sdraiati1.jpg';
+import sdraiati2 from '@/assets/sdraiati2.jpg';
+import sdraiati3 from '@/assets/sdraiati3.jpg';
+
+import contenere from '@/assets/contenere.jpg';
+
+import trivia from '@/assets/trivia.jpg';
+import trivia1 from '@/assets/trivia1.jpg';
+import trivia2 from '@/assets/trivia2.jpg';
+import trivia3 from '@/assets/trivia3.jpg';
+
+import how from '@/assets/how.jpg';
+
+import who from '@/assets/who.jpg';
+
 export interface Work {
   slug: string;
   title: string;
@@ -15,7 +32,7 @@ export interface Work {
 }
 
 export const works: Work[] = [
-    {
+  {
     slug: 'le-braccia-di-milo',
     title: 'Le braccia di Milo',
     year: '2026',
@@ -23,8 +40,8 @@ export const works: Work[] = [
     themes: ['body', 'ritual', 'fragility', 'stillness'],
     description: '',
     longDescription: '',
-    image: "/src/assets/leBracciaDiMilo.jpg",
-    images:[],
+    image: leBracciaDiMilo,
+    images: [],
     orientation: 'vertical',
     featured: true,
   },
@@ -34,10 +51,12 @@ export const works: Work[] = [
     year: '2020/2022',
     medium: 'Ceramics, Installation',
     themes: ['body', 'ritual', 'fragility', 'stillness'],
-    description: 'A year-long ritual of making. Three hundred and sixty-five ceramic figures lying down like an intimate diary of suspended time, vulnerability, exhaustion, tenderness, and persistence.',
-    longDescription: 'Sdraiati is a durational work spanning an entire year 365 days, 365 ceramic figures, each one shaped by hand in the intimacy of a daily ritual. The figures lie down, embodying states of rest, vulnerability, exhaustion, tenderness, and quiet persistence. Together they form a tactile diary of time passing, a meditation on the body as vessel of accumulated experience. The repetition becomes both discipline and surrender, each small figure a fragment of presence reclaimed from the flux of days.',
-    image: "/src/assets/sdraiati.jpg",
-    images:["/src/assets/sdraiati.jpg", "/src/assets/sdraiati1.jpg", "/src/assets/sdraiati2.jpg","/src/assets/sdraiati3.jpg"],
+    description:
+      'A year-long ritual of making. Three hundred and sixty-five ceramic figures lying down like an intimate diary of suspended time, vulnerability, exhaustion, tenderness, and persistence.',
+    longDescription:
+      'Sdraiati is a durational work spanning an entire year 365 days, 365 ceramic figures, each one shaped by hand in the intimacy of a daily ritual. The figures lie down, embodying states of rest, vulnerability, exhaustion, tenderness, and quiet persistence. Together they form a tactile diary of time passing, a meditation on the body as vessel of accumulated experience. The repetition becomes both discipline and surrender, each small figure a fragment of presence reclaimed from the flux of days.',
+    image: sdraiati,
+    images: [sdraiati, sdraiati1, sdraiati2, sdraiati3],
     orientation: 'vertical',
     featured: true,
   },
@@ -47,10 +66,11 @@ export const works: Work[] = [
     year: '2025',
     medium: 'Ceramic',
     themes: ['body', 'memory', 'absence', 'transformation'],
-    description: 'A vessel-body, holding memory, presence and absence. A form that shelters what continuously changes.',
+    description:
+      'A vessel-body, holding memory, presence and absence. A form that shelters what continuously changes.',
     longDescription: '',
-    image: '/src/assets/contenere.jpg',
-    images:[],
+    image: contenere,
+    images: [],
     orientation: 'vertical',
     featured: true,
   },
@@ -61,9 +81,10 @@ export const works: Work[] = [
     medium: 'Plaster sculpture',
     themes: ['body', 'absence', 'memory', 'trace'],
     description: 'The void that fills',
-    longDescription: 'Plaster sculpture resulting from the empty space created by the embrace of three women.\nFrom the womb to the heart an irregular pyramid where each face bears the imprint of each one.',
-    image: '/src/assets/trivia.jpg',
-    images:["/src/assets/trivia3.jpg", "/src/assets/trivia1.jpg", "/src/assets/trivia.jpg","/src/assets/trivia2.jpg"],
+    longDescription:
+      'Plaster sculpture resulting from the empty space created by the embrace of three women.\nFrom the womb to the heart an irregular pyramid where each face bears the imprint of each one.',
+    image: trivia,
+    images: [trivia3, trivia1, trivia, trivia2],
     orientation: 'vertical',
     featured: true,
   },
@@ -73,27 +94,29 @@ export const works: Work[] = [
     year: '2019',
     medium: 'Ceramic',
     themes: ['body', 'trace', 'transformation', 'fragility'],
-    description: 'A negative of a human heart in ceramic, weighing 250 grams, where emotion acquires weight, surface and permanence.',
+    description:
+      'A negative of a human heart in ceramic, weighing 250 grams, where emotion acquires weight, surface and permanence.',
     longDescription: '',
-    image: '/src/assets/how.jpg',
+    image: how,
+    images: [],
     orientation: 'vertical',
-    images:[],
     featured: true,
   },
-    {
+  {
     slug: 'who-you-are',
     title: 'Who you are',
     year: '2019',
     medium: 'Installation',
     themes: ['unconscious', 'trace', 'body', 'ritual'],
-    description: 'Automatic writing and portraiture converge in an installation that reveals the unstable threshold between self-description and the unconscious.',
-    longDescription: 'People spark an endless curiosity. Participants were asked to write down who they were. Reactions varied: some self-assured, others pausing to explain themselves. Together, the aim was to reshape these fragments of automatic writing, revealing the surreal in something concrete. Each line traced a stream of thought slowly drifting from reason, where the first and last words seemed to contain parts unknown, or perhaps willingly unseen.',
-    image: '/src/assets/who.jpg',
-    images:['/src/assets/who.jpg'],
+    description:
+      'Automatic writing and portraiture converge in an installation that reveals the unstable threshold between self-description and the unconscious.',
+    longDescription:
+      'People spark an endless curiosity. Participants were asked to write down who they were. Reactions varied: some self-assured, others pausing to explain themselves. Together, the aim was to reshape these fragments of automatic writing, revealing the surreal in something concrete. Each line traced a stream of thought slowly drifting from reason, where the first and last words seemed to contain parts unknown, or perhaps willingly unseen.',
+    image: who,
+    images: [who],
     orientation: 'vertical',
     featured: true,
-  }
-
+  },
 ];
 
 export const exhibitions = [
