@@ -84,32 +84,33 @@ const WorkDetail = () => {
       {/* DESCRIPTION */}
       <section className="max-w-3xl mx-auto px-6 md:px-12 pb-16">
         <ScrollReveal>
-          <p className="font-serif text-xl md:text-2xl font-light text-foreground/70 leading-relaxed italic">
+          <p className="font-serif text-xl md:text-2xl font-light text-foreground/70 leading-relaxed italic hyphens-auto">
             {work.description}
           </p>
         </ScrollReveal>
       </section>
 
-           {/* LONG DESCRIPTION */}
-      <section className="max-w-3xl mx-auto px-6 md:px-12 pb-24 md:pb-32">
-        <ScrollReveal delay={200}>
+      {/* LONG DESCRIPTION */}
+<section className="max-w-3xl mx-auto px-6 md:px-12 pb-24 md:pb-32">
+  <ScrollReveal delay={200}>
+    <p className="whitespace-pre-line text-justify text-foreground/70 leading-relaxed tracking-[0.01em] hyphens-auto">
+      {work.longDescription.split("[[strike:").map((part, i) => {
+        if (!part.includes("]]")) return part;
 
-            <p className='whitespace-pre-line'>
-            {work.longDescription.split("[[strike:").map((part, i) => {
-              if (!part.includes("]]")) return part;
+        const [strikeText, rest] = part.split("]]");
 
-              const [strikeText, rest] = part.split("]]");
-
-              return (
-                <span key={i}>
-                  <span className="line-through opacity-60 ">{strikeText}</span>
-                  {rest}
-                </span>
-              );
-            })}
-          </p>
-        </ScrollReveal>
-      </section>
+        return (
+          <span key={i}>
+            <span className="line-through opacity-60">
+              {strikeText}
+            </span>
+            {rest}
+          </span>
+        );
+      })}
+    </p>
+  </ScrollReveal>
+</section>
 
       {/* 🎬 CAROUSEL */}
       <section className="max-w-5xl mx-auto px-6 md:px-12 pb-20">

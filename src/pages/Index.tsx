@@ -35,7 +35,7 @@ const Index = () => {
       {/* Statement */}
       <section className="max-w-4xl mx-auto px-6 md:px-12 py-24 md:py-40">
         <ScrollReveal>
-          <p className="font-serif text-xl md:text-2xl lg:text-3xl font-light leading-relaxed text-foreground/80">
+          <p className="font-serif text-xl md:text-2xl lg:text-3xl font-light leading-relaxed text-foreground/80 hyphens-auto text-justify">
             Between body and memory, presence and absence, Ilaria Igliani's works emerge as fragments
             of an inquiry into the human condition, fragility, and the visible as a vessel for the unseen.
           </p>

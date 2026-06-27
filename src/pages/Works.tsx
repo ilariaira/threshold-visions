@@ -56,7 +56,7 @@ useEffect(() => {
                             <span className="text-[10px] tracking-[0.2em] text-muted-foreground font-light">{work.year}</span>
                             <span className="text-[10px] tracking-[0.15em] text-muted-foreground/60 font-light">{work.medium}</span>
                           </div>
-                          <p className="font-serif text-sm font-light text-foreground/60 mt-4 leading-relaxed">
+                          <p className="font-serif text-sm font-light text-foreground/60 mt-4 leading-relaxed hyphens-auto text-justify">
                             {work.description}
                           </p>
                         </div>
@@ -79,7 +79,7 @@ useEffect(() => {
                             <span className="text-[10px] tracking-[0.2em] text-muted-foreground font-light">{work.year}</span>
                             <span className="text-[10px] tracking-[0.15em] text-muted-foreground/60 font-light">{work.medium}</span>
                           </div>
-                          <p className="font-serif text-sm font-light text-foreground/60 mt-6 leading-relaxed">
+                          <p className="font-serif text-sm font-light text-foreground/60 mt-6 leading-relaxed hyphens-auto text-justify">
                             {work.description}
                           </p>
                         </div>

@@ -19,7 +19,7 @@ const Navigation = () => {
           to="/"
           className="font-serif text-xl md:text-2xl font-light tracking-wide text-foreground hover:opacity-70 transition-opacity duration-500"
         >
-          ilariaira
+          Ilaria Igliani
         </Link>
 
         {/* Desktop nav */}
