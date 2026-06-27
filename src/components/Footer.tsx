@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-serif text-xl font-light mb-4 text-foreground">Ilaria Igliani</h3>
             <p className="text-xs tracking-[0.15em] text-muted-foreground font-light leading-relaxed">
               Multidisciplinary artist<br />
               Based in Italy
