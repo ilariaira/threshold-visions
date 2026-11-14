@@ -17,6 +17,11 @@ import how from '@/assets/how.jpg';
 
 import who from '@/assets/who.jpg';
 
+import anatomy from '@/assets/anatomy.jpg';
+import anatomy1 from '@/assets/anatomy1.jpg';
+import anatomy2 from '@/assets/anatomy2.jpg';
+import anatomy3 from '@/assets/anatomy3.jpg';
+
 export interface Work {
   slug: string;
   title: string;
@@ -32,6 +37,23 @@ export interface Work {
 }
 
 export const works: Work[] = [
+
+  {
+    slug: 'anatomy-of-a-landfall',
+    title: 'Anatomy of a Landfall',
+    year: '2026',
+    medium: 'White ceramic',
+    themes: ['unconscious', 'trace', 'body', 'ritual'],
+    description:
+      'The work remains open-ended. The figure continues to travel with me. I do not yet know which place, for her, will become a homecoming.',
+    longDescription:
+      'The Odyssey has accompanied me for years, and what I keep searching for is not Ithaca. It is that subtle tension between the pull of returning home and the desire to venture beyond it. I brought this figure to Dexa Bay, where myth places Odysseus’s landing. I planted it in the earth as a ritual gesture, allowing the landscape to complete the work.',
+    image: anatomy,
+    images: [anatomy2, anatomy3, anatomy3],
+    orientation: 'vertical',
+    featured: true,
+  },
+
   {
     slug: 'le-braccia-di-milo',
     title: 'Le braccia di Milo',
@@ -117,9 +139,21 @@ export const works: Work[] = [
     orientation: 'vertical',
     featured: true,
   },
+
+
 ];
 
 export const exhibitions = [
+  {
+    year: '2026-present',
+    items: [
+      {
+        title: 'Le braccia di Milo',
+        venue: 'Margutta Home',
+        location: 'Roma, Italy',
+      },
+    ],
+  },
   {
     year: '2024–25',
     items: [
