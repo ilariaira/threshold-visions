@@ -49,7 +49,7 @@ export const works: Work[] = [
     longDescription:
       'The Odyssey has accompanied me for years, and what I keep searching for is not Ithaca. It is that subtle tension between the pull of returning home and the desire to venture beyond it. I brought this figure to Dexa Bay, where myth places Odysseus’s landing. I planted it in the earth as a ritual gesture, allowing the landscape to complete the work.',
     image: anatomy,
-    images: [anatomy2, anatomy3, anatomy3],
+    images: [anatomy2, anatomy1, anatomy3],
     orientation: 'vertical',
     featured: true,
   },
