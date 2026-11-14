@@ -45,7 +45,7 @@ export const works: Work[] = [
     medium: 'White ceramic',
     themes: ['unconscious', 'trace', 'body', 'ritual'],
     description:
-      'The work remains open-ended. The figure continues to travel with me. I do not yet know which place, for her, will become a homecoming.',
+      '',
     longDescription:
       'The Odyssey has accompanied me for years, and what I keep searching for is not Ithaca. It is that subtle tension between the pull of returning home and the desire to venture beyond it. I brought this figure to Dexa Bay, where myth places Odysseus’s landing. I planted it in the earth as a ritual gesture, allowing the landscape to complete the work.',
     image: anatomy,
