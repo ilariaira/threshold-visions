@@ -187,7 +187,7 @@ export const exhibitions = [
        {
         title: 'Rette mich! Menschlichkeit als Motor',
         venue: 'Museum Penzberg',
-        location: 'Pensberg, Germany',
+        location: 'Penzberg, Germany',
       },
        {
         title: 'Young Rebel',
