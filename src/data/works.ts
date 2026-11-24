@@ -5,8 +5,10 @@ import sdraiati from '@/assets/sdraiati.jpg';
 import sdraiati1 from '@/assets/sdraiati1.jpg';
 import sdraiati2 from '@/assets/sdraiati2.jpg';
 import sdraiati3 from '@/assets/sdraiati3.jpg';
+import sdraiati4 from '@/assets/sdraiati4.png';
 
 import contenere from '@/assets/contenere.jpg';
+import contenere1 from '@/assets/contenere1.png';
 
 import trivia from '@/assets/trivia.jpg';
 import trivia1 from '@/assets/trivia1.jpg';
@@ -47,7 +49,7 @@ export const works: Work[] = [
     description:
       '',
     longDescription:
-      'The Odyssey has accompanied me for years, and what I keep searching for is not Ithaca. It is that subtle tension between the pull of returning home and the desire to venture beyond it. I brought this figure to Dexa Bay, where myth places Odysseus’s landing. I planted it in the earth as a ritual gesture, allowing the landscape to complete the work.',
+      'The Odyssey has accompanied me for years, and what I keep searching for is not Ithaca. It is that subtle tension between the pull of returning home and the desire to venture beyond it. I brought this figure to Dexa Bay, where myth places Odysseus’s landing. I planted it in the earth as a ritual gesture, allowing the landscape to complete the work.\n—\nThe work remains open-ended. The figure continues to travel with me. I do not yet know which place, will become a homecoming.',
     image: anatomy,
     images: [anatomy2, anatomy1, anatomy3],
     orientation: 'vertical',
@@ -60,8 +62,8 @@ export const works: Work[] = [
     year: '2026',
     medium: 'White ceramic',
     themes: ['body', 'ritual', 'fragility', 'stillness'],
-    description: '',
-    longDescription: '',
+    description: 'Le Braccia di Milo ( The Arms of Milo )',
+    longDescription: 'Built using the coiling technique, the clay takes shape. The gesture of the hands creates a form that, in turn, embraces.',
     image: leBracciaDiMilo,
     images: [],
     orientation: 'vertical',
@@ -78,7 +80,7 @@ export const works: Work[] = [
     longDescription:
       'Sdraiati is a durational work spanning an entire year 365 days, 365 ceramic figures, each one shaped by hand in the intimacy of a daily ritual. The figures lie down, embodying states of rest, vulnerability, exhaustion, tenderness, and quiet persistence. Together they form a tactile diary of time passing, a meditation on the body as vessel of accumulated experience. The repetition becomes both discipline and surrender, each small figure a fragment of presence reclaimed from the flux of days.',
     image: sdraiati,
-    images: [sdraiati, sdraiati1, sdraiati2, sdraiati3],
+    images: [sdraiati, sdraiati1, sdraiati2, sdraiati3,sdraiati4],
     orientation: 'vertical',
     featured: true,
   },
@@ -89,10 +91,10 @@ export const works: Work[] = [
     medium: 'Ceramic',
     themes: ['body', 'memory', 'absence', 'transformation'],
     description:
-      'A vessel-body, holding memory, presence and absence. A form that shelters what continuously changes.',
+      'The Liri and the Gari flow through the places my mother and her partner come from. They meet and take on another name, Garigliano, before reaching the sea. During their wedding ceremony, they poured water collected from the two rivers into Contenere. The waters mingled within the sculpture, where its branches come together in a single body.',
     longDescription: '',
     image: contenere,
-    images: [],
+    images: [contenere,contenere1],
     orientation: 'vertical',
     featured: true,
   },
@@ -117,7 +119,7 @@ export const works: Work[] = [
     medium: 'Ceramic',
     themes: ['body', 'trace', 'transformation', 'fragility'],
     description:
-      'A negative of a human heart in ceramic, weighing 250 grams, where emotion acquires weight, surface and permanence.',
+      'A human heart , weighing 250 grams',
     longDescription: '',
     image: how,
     images: [],
